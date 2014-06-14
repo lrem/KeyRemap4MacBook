@@ -11,7 +11,6 @@
 #import "StartAtLoginUtilities.h"
 #import "StatusBar.h"
 #import "StatusWindow.h"
-#import "Updater.h"
 #import "WorkSpaceData.h"
 #include <stdlib.h>
 
@@ -265,23 +264,6 @@ static void observer_IONotification(void* refcon, io_iterator_t iterator)
   system("/Applications/KeyRemap4MacBook.app/Contents/Library/bin/kextload load");
 
   // ------------------------------------------------------------
-  {
-    // Remove old pkg files and finish_installation.app in
-    // "~/Library/Application Support/KeyRemap4MacBook/.Sparkle".
-    NSArray* paths = NSSearchPathForDirectoriesInDomains(NSApplicationSupportDirectory, NSUserDomainMask, YES);
-    NSString* sparkle = paths[0];
-    if (sparkle) {
-      sparkle = [sparkle stringByAppendingPathComponent:@"KeyRemap4MacBook"];
-      sparkle = [sparkle stringByAppendingPathComponent:@".Sparkle"];
-
-      NSFileManager* fm = [NSFileManager defaultManager];
-      if ([fm fileExistsAtPath:sparkle]) {
-        [fm removeItemAtPath:sparkle error:nil];
-      }
-    }
-  }
-
-  // ------------------------------------------------------------
   if (! [serverForUserspace_ register]) {
     // Relaunch when register is failed.
     NSLog(@"[ServerForUserspace register] is failed. Restarting process.");
@@ -336,8 +318,6 @@ static void observer_IONotification(void* refcon, io_iterator_t iterator)
   // ------------------------------------------------------------
   [self distributedObserver_kTISNotifyEnabledKeyboardInputSourcesChanged:nil];
   [self distributedObserver_kTISNotifySelectedKeyboardInputSourceChanged:nil];
-
-  [updater_ checkForUpdatesInBackground:nil];
 
   // ------------------------------------------------------------
   [self launchAXNotifier];

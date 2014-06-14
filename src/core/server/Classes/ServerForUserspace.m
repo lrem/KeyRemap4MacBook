@@ -4,7 +4,6 @@
 #import "PreferencesManager.h"
 #import "Relauncher.h"
 #import "ServerForUserspace.h"
-#import "Updater.h"
 #import "UserClient_userspace.h"
 #import "XMLCompiler.h"
 

@@ -9,7 +9,6 @@
 @class ServerForUserspace;
 @class StatusBar;
 @class StatusWindow;
-@class Updater;
 @class WorkSpaceData;
 @class XMLCompiler;
 
@@ -20,7 +19,6 @@
   IBOutlet ServerForUserspace* serverForUserspace_;
   IBOutlet StatusBar* statusbar_;
   IBOutlet StatusWindow* statusWindow_;
-  IBOutlet Updater* updater_;
   IBOutlet WorkSpaceData* workSpaceData_;
   IBOutlet XMLCompiler* xmlCompiler_;
 }

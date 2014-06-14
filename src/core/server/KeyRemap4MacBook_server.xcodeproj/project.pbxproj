@@ -10,7 +10,6 @@
 		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
 		256AC3DA0F4B6AC300CF3369 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* AppDelegate.m */; };
 		3401D0D61657A18C00CF962F /* ServerForUserspace.m in Sources */ = {isa = PBXBuildFile; fileRef = 3401D0D51657A18C00CF962F /* ServerForUserspace.m */; };
-		3401D0DA1657CE6A00CF962F /* Updater.m in Sources */ = {isa = PBXBuildFile; fileRef = 3401D0D91657CE6A00CF962F /* Updater.m */; };
 		3401D0DD1657DD4800CF962F /* ClientForKernelspace.m in Sources */ = {isa = PBXBuildFile; fileRef = 3401D0DC1657DD4800CF962F /* ClientForKernelspace.m */; };
 		3406F7111668ED7B00FE1E80 /* PreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3406F7101668ED7B00FE1E80 /* PreferencesController.m */; };
 		340B7E3F1545090D00FB3237 /* InputSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 340B7E3E1545090D00FB3237 /* InputSource.m */; };
@@ -33,8 +32,6 @@
 		34568415109F350100125F91 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34568414109F350100125F91 /* Carbon.framework */; };
 		34738785192589CC00F605BD /* windownamedef.xml in Resources */ = {isa = PBXBuildFile; fileRef = 34738784192589CC00F605BD /* windownamedef.xml */; };
 		347828F613EE5F3400D50AB1 /* kr4mb_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 347828F513EE5F3400D50AB1 /* kr4mb_pub.pem */; };
-		347828F913EE5F6500D50AB1 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 347828F813EE5F6500D50AB1 /* Sparkle.framework */; };
-		347828FA13EE5F6700D50AB1 /* Sparkle.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = 347828F813EE5F6500D50AB1 /* Sparkle.framework */; };
 		3478EF8916C8C34F00AD2986 /* vkopenurldef.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3478EF8816C8C34F00AD2986 /* vkopenurldef.xml */; };
 		34848260152F526B00A9A3BE /* libxml_compiler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3484825F152F526B00A9A3BE /* libxml_compiler.a */; };
 		34848266152F54B700A9A3BE /* XMLCompiler.m in Sources */ = {isa = PBXBuildFile; fileRef = 34848265152F54B700A9A3BE /* XMLCompiler.m */; };
@@ -65,20 +62,6 @@
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		340A05911302CE8E00B7E1B1 /* Copy Files */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				347828FA13EE5F6700D50AB1 /* Sparkle.framework in Copy Files */,
-			);
-			name = "Copy Files";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
 		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
@@ -92,8 +75,6 @@
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		3401D0D41657A18C00CF962F /* ServerForUserspace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServerForUserspace.h; path = Classes/ServerForUserspace.h; sourceTree = "<group>"; };
 		3401D0D51657A18C00CF962F /* ServerForUserspace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ServerForUserspace.m; path = Classes/ServerForUserspace.m; sourceTree = "<group>"; };
-		3401D0D81657CE6A00CF962F /* Updater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Updater.h; path = Classes/Updater.h; sourceTree = "<group>"; };
-		3401D0D91657CE6A00CF962F /* Updater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Updater.m; path = Classes/Updater.m; sourceTree = "<group>"; };
 		3401D0DB1657DD4800CF962F /* ClientForKernelspace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClientForKernelspace.h; path = Classes/ClientForKernelspace.h; sourceTree = "<group>"; };
 		3401D0DC1657DD4800CF962F /* ClientForKernelspace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ClientForKernelspace.m; path = Classes/ClientForKernelspace.m; sourceTree = "<group>"; };
 		3401D0DE16586C0700CF962F /* KeyRemap4MacBookProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KeyRemap4MacBookProtocol.h; path = ../../share/KeyRemap4MacBookProtocol.h; sourceTree = "<group>"; };
@@ -130,7 +111,6 @@
 		34597768128DBFAE003398BD /* bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bridge.h; path = ../../bridge/include/bridge.h; sourceTree = SOURCE_ROOT; };
 		34738784192589CC00F605BD /* windownamedef.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = windownamedef.xml; path = Resources/windownamedef.xml; sourceTree = "<group>"; };
 		347828F513EE5F3400D50AB1 /* kr4mb_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = kr4mb_pub.pem; path = Resources/kr4mb_pub.pem; sourceTree = "<group>"; };
-		347828F813EE5F6500D50AB1 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = Frameworks/Sparkle.framework; sourceTree = "<group>"; };
 		3478EF8816C8C34F00AD2986 /* vkopenurldef.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = vkopenurldef.xml; path = Resources/vkopenurldef.xml; sourceTree = "<group>"; };
 		3484825F152F526B00A9A3BE /* libxml_compiler.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libxml_compiler.a; path = ../../lib/xml_compiler/build/Release/libxml_compiler.a; sourceTree = "<group>"; };
 		34848264152F533500A9A3BE /* XMLCompiler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMLCompiler.h; path = Classes/XMLCompiler.h; sourceTree = "<group>"; };
@@ -183,7 +163,6 @@
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				34568415109F350100125F91 /* Carbon.framework in Frameworks */,
 				345647421346AE1700FD0C38 /* IOKit.framework in Frameworks */,
-				347828F913EE5F6500D50AB1 /* Sparkle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +198,6 @@
 				34A5572516EA03B3000E5399 /* StatusMessage */,
 				34D4F82612C4463B001819AA /* StatusWindow.h */,
 				34D4F82712C4463B001819AA /* StatusWindow.m */,
-				3401D0D81657CE6A00CF962F /* Updater.h */,
-				3401D0D91657CE6A00CF962F /* Updater.m */,
 				345647341346A7AF00FD0C38 /* UserClient_userspace.h */,
 				345647351346A7AF00FD0C38 /* UserClient_userspace.m */,
 				34D4F83B12C45CF3001819AA /* WorkSpaceData+InputSource.m */,
@@ -318,7 +295,6 @@
 				3484825F152F526B00A9A3BE /* libxml_compiler.a */,
 				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
-				347828F813EE5F6500D50AB1 /* Sparkle.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -468,7 +444,6 @@
 				34848266152F54B700A9A3BE /* XMLCompiler.m in Sources */,
 				340B7E3F1545090D00FB3237 /* InputSource.m in Sources */,
 				3401D0D61657A18C00CF962F /* ServerForUserspace.m in Sources */,
-				3401D0DA1657CE6A00CF962F /* Updater.m in Sources */,
 				3401D0DD1657DD4800CF962F /* ClientForKernelspace.m in Sources */,
 				34207C051666209F00E7FD08 /* OutlineView_checkbox.m in Sources */,
 				34207C061666209F00E7FD08 /* OutlineView_number.m in Sources */,
