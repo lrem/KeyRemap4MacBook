@@ -84,7 +84,6 @@ A selected list to orient you...
   * *files/extra*:  shell scripts for packaging used by make-package.sh
 * *pkginfo/*:  more package tools, including setting the version number.
 * *src/*:
-  * *src/vendor/blueutil*:  command line control of Bluetooth
   * *src/core/server/*:  main server code, what you see as the UI.
     + *.../Frameworks/Sparkle.framework*:  modified Sparkle upgrader
     + *.../Resources/include/checkbox*:  long ChangeKey list items
